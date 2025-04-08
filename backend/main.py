@@ -34,7 +34,7 @@ MAX_WORKERS = 2
 
 # Groq API configuration
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-MODEL_NAME = "llama3-70b-8192"  # Use the specific Llama model you want to use on Groq
+MODEL_NAME = "llama3-70b-8192"  # Use the specific Llama model on Groq
 
 # API client
 http_client = httpx.AsyncClient(timeout=60.0)
